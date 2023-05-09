@@ -9,13 +9,12 @@ body{
     background-image: linear-gradient(25deg, #5C3EE1 ,#B5A2D8  );
 }
 
-.nav .nav-link{
+#cabecalho .nav .nav-link{
     color: #000;
 }
 
 .nav .nav-link.active{
     background-color: #5C3EE1;
-    color: #000;
 }
 
 .title-style{
@@ -30,10 +29,15 @@ body{
     height: 500px;
 }
 
-#sobre{
+#sobre,
+#produtos{
     background-color: #FDF7FF;
 }
 
 #eventos img{
     height: 250px;
+}
+
+.tab-content img{
+    height: 20rem;
 }

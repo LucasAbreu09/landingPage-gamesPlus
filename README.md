@@ -8,3 +8,4 @@
 - carossel de imagens
 - sobre a loja com uma foto da fachada
 - seção de eventos
+- seção de produtos com 4 opções
