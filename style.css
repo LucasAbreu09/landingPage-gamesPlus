@@ -1,0 +1,39 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-image: linear-gradient(25deg, #5C3EE1 ,#B5A2D8  );
+}
+
+.nav .nav-link{
+    color: #000;
+}
+
+.nav .nav-link.active{
+    background-color: #5C3EE1;
+    color: #000;
+}
+
+.title-style{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.title-color{
+    color: #5C3EE1;
+}
+
+.carousel-inner .carousel-item img{
+    height: 500px;
+}
+
+#sobre{
+    background-color: #FDF7FF;
+}
+
+#eventos img{
+    height: 250px;
+}

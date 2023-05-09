@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Games Plus</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 title-style">Games Plus</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobre">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a Loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#eventos">
+                            <i class="bi bi-calendar2-event-fill"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-bag-check-fill"></i>
+                            Nosso Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Entre em contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre">
+            <div class="carousel slide" data-bs-slide="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="w-100" src="img/slide/slide1.jpeg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="img/slide/slide2.png" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="img/slide/slide3.jpg" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next"  data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="img/fachada/thumb-loja.jpg" class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="title-style">Sobre <span class="title-color">a loja</span></h2>
+                            <p>
+                                Games Plus is a new store that sells video games, gaming consoles, and accessories for various platforms. With a wide selection of popular titles and competitive pricing, it's the ultimate destination for all your gaming needs.
+                            </p>
+                            <h3 class="title-style">Sobre <span class="title-color">as instalaçoes</span></h3>
+                            <p>
+                                O Games Plus oferece várias facilidades para jogadores, incluindo:
+                            </p>
+                            <ol>
+                                <li>Uma ampla seleção de videogames populares para diferentes plataformas</li>
+                                <li>Consolas de jogos e acessórios para uma experiência de jogo completa</li>
+                                <li>Atendimento ao cliente excepcional para fornecer aos jogadores o melhor valor pelo seu dinheiro.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="title-style text-center">Nossos <span class="title-color">eventos</span></h1>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="img/eventos/torneio.jpg" alt="torneio" class="d-block w-100 rounded mb-2">
+                        <h3 class="title-style title-color fs-5">
+                            <i class="bi bi-joystick"></i>
+                            Torneio de jogos
+                        </h3>
+                        <p>
+                            Competir com outros jogadores em um emocionante torneio de jogos com títulos populares e ganhar prêmios emocionantes.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/eventos/game-launch.jpg" alt="lançamento de games" class="d-block w-100 rounded mb-2">
+                        <h3 class="title-style title-color fs-5">
+                            <i class="bi bi-award-fill"></i>
+                            Festa de lançamento do jogo
+                        </h3>
+                        <p>
+                            Seja o primeiro a experimentar o último lançamento do jogo em nossa festa de lançamento, completa com refrescos, brindes e mercadorias exclusivas.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/eventos/board-games.png" alt="lançamento de games" class="d-block w-100 rounded mb-2">
+                        <h3 class="title-style title-color fs-5">
+                            <i class="bi bi-dice-6-fill"></i>
+                            Retro Gaming Night
+                        </h3>
+                        <p>
+                            Reviva a nostalgia dos videogames clássicos com nossa noite de jogos retrô, com consoles e jogos antigos, lanches e uma atmosfera divertida.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/eventos/game-launch.jpg" alt="lançamento de games" class="d-block w-100 rounded mb-2">
+                        <h3 class="title-style title-color fs-5">
+                            <i class="bi bi-award-fill"></i>
+                            Festa de lançamento do jogo
+                        </h3>
+                        <p>
+                            Seja o primeiro a experimentar o último lançamento do jogo em nossa festa de lançamento, completa com refrescos, brindes e mercadorias exclusivas.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/eventos/board-games.png" alt="lançamento de games" class="d-block w-100 rounded mb-2">
+                        <h3 class="title-style title-color fs-5">
+                            <i class="bi bi-dice-6-fill"></i>
+                            Retro Gaming Night
+                        </h3>
+                        <p>
+                            Reviva a nostalgia dos videogames clássicos com nossa noite de jogos retrô, com consoles e jogos antigos, lanches e uma atmosfera divertida.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/eventos/torneio.jpg" alt="torneio" class="d-block w-100 rounded mb-2">
+                        <h3 class="title-style title-color fs-5">
+                            <i class="bi bi-joystick"></i>
+                            Torneio de jogos
+                        </h3>
+                        <p>
+                            Competir com outros jogadores em um emocionante torneio de jogos com títulos populares e ganhar prêmios emocionantes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
