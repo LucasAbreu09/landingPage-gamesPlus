@@ -41,3 +41,25 @@ body{
 .tab-content img{
     height: 20rem;
 }
+
+#contato button{
+    background-color: #5C3EE1;
+    color: #B5A2D8;
+}
+
+#contato button:hover{
+    color: #fff;
+}
+
+form textarea{
+    resize: none;
+}
+
+.social li{
+    list-style: none;
+    display: inline;
+}
+
+.social li a{
+    text-decoration: none;
+}
