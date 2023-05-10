@@ -63,3 +63,13 @@ form textarea{
 .social li a{
     text-decoration: none;
 }
+
+@media (max-width:767px){
+    #produtos img{
+        height: 450px;
+    }
+
+    .carousel-inner .carousel-item img{
+        height: 200px;
+    }
+}

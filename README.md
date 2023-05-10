@@ -9,3 +9,8 @@
 - sobre a loja com uma foto da fachada
 - seção de eventos
 - seção de produtos com 4 opções
+- fale conosco adicionado
+
+## Fixed
+- imagens distorcidas para resoluções menores
+- quantidade de item para resoluções menores
